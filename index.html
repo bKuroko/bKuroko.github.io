@@ -1,1 +1,191 @@
-"hello shit" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio - Brent Benigay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #081b29;
+            color: #ededed;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 25px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #00bcd4;
+        }
+
+        .home {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 10%;
+        }
+
+        .home-work {
+            max-width: 600px;
+        }
+
+        .home-work h1 {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .home-work h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #00bcd4;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 10%;
+            background: #102a43;
+        }
+
+        .about img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .about-content {
+            max-width: 600px;
+            margin-left: 40px;
+        }
+
+        .about-content h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .about-content p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+        }
+
+        .section ul li a {
+            color: #ededed;
+            text-decoration: none;
+        }
+
+        .section ul li a:hover {
+            color: #00bcd4;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Brent.</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-work">
+            <h1>Hello! I'm Brent</h1>
+            <h3>IT Student</h3>
+            <p>
+                I am a 2nd-year college student passionate about technology and programming. 
+                I am continuously learning and improving my skills in programming. 
+                Welcome to my portfolio!
+            </p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <img src="images/pic.jpg" alt="Brent Benigay's profile picture">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am Brent Benigay. I've studied Python and Java as my basic programming languages.
+                 an aspiring software developer with a passion for learning and creating. 
+                 I enjoy exploring new technologies and improving my skills in web and software development.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Works</h2>
+        <ul>
+            <li><strong>Portfolio Website:</strong> The website you are currently viewing!</li>
+            <li><strong>Application Prototype (Figma):</strong> <a href="https://www.figma.com/design/qVfWZDTEqTJHg3gcC8LAmb/KIcks-Budyget---Benigay%2C-Brent?node-id=0-1&p=f" target="_blank">View Prototype</a></li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: <a href="mailto:benigay.brent@gmail.com">benigay.brent@gmail.com</a></li>
+            <li>Fb: <a href="https://www.facebook.com/brentoy.benigay?mibextid=ZbWKwL" target="_blank">https://www.facebook.com/brentoy.benigay?mibextid=ZbWKwL</a></li>
+            <li><strong>Phone:</strong> +63 997 384 3324</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+  
